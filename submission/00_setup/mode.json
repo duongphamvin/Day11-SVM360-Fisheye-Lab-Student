@@ -1,0 +1,24 @@
+{
+  "members": [
+    "Phạm Hoàng Dương"
+  ],
+  "assignments": {
+    "Phạm Hoàng Dương": "B1-edge"
+  },
+  "self": "Phạm Hoàng Dương",
+  "slice": "B1-edge",
+  "degrade": [
+    "k12"
+  ],
+  "current_slice": "B1-edge",
+  "support_prefill": true,
+  "support_slice": "B1-edge",
+  "prefill_box_ids": [
+    "adasind_001320.jpg:1",
+    "adasind_001320.jpg:2",
+    "adasind_001320.jpg:3",
+    "adasind_014670.jpg:1",
+    "adasind_014670.jpg:2",
+    "adasind_014670.jpg:3"
+  ]
+}

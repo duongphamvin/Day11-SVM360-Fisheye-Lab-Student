@@ -1,0 +1,9 @@
+round: r1_craft
+slice: B1-edge
+sha256: 0503dac0deb4755886fee5865b913dd31cc1245c890bc0b6398bab71f8970408
+code: 0503-DAC0
+locked_at: 2026-09-29T11:41:00+07:00
+shapes: box=11, polygon=9
+prefill_kept: 11
+prefill_edited: 0
+new: 0

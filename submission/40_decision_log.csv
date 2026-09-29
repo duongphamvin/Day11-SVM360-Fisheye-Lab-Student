@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D01,2026-09-28,"Phân định vạch đỗ xe tiền cảnh và lối xe chạy","Vẽ 6 vạch chia ô rõ và 1 polygon free_space lối xe chạy","Vạch xa bị mờ và không đủ căn cứ xác nhận chia ô tránh gán nhãn bừa bãi","resolved"
+D02,2026-09-29,"Xử lý rider trên xe hai bánh ở C0","Gộp rider và xe thành 1 box Bike duy nhất theo R03","Tuân thủ quy ước R03 tránh lỗi trùng lặp box Pedestrian","resolved"
+D03,2026-09-29,"Xử lý ego vehicle body trên fisheye slice B1-edge","Thêm polygon ignore_region với reason ego_body cho cả 3 frame","Thân xe gắn camera nhìn thấy rõ ở phần dưới thấu kính cần che theo R07","resolved"
+D04,2026-09-29,"Phát hiện nghi ngờ lỗi trong teaching reference frame 001320 (R5)","Leo thang ticket kỹ thuật cho data ops và guideline team","Reference gán ThreeWheeler ở góc khuất có kích thước dưới 40px hoặc thuộc khu vực bóng râm không rõ ranh giới","escalated"

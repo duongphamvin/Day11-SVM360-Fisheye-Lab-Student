@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,22,common traffic and stable illumination,Estimate baseline class frequency and box quality in the primary driving direction.
+front,hard,28,small distant objects glare and edge distortion,Front view carries dense traffic and long-range objects near the fisheye boundary.
+rear,normal,20,sparse objects and repeated static background,Measure routine reverse-view quality without letting easy frames dominate.
+rear,hard,25,occlusion truncation and low-light reverse scenes,Rear camera needs extra coverage for close objects entering from frame edges.
+left,normal,20,side-view class imbalance,Maintain a balanced baseline for lateral pedestrians bikes and parked vehicles.
+left,hard,30,seam overlap severe radial distortion and close pass-by objects,Left edge cases need more review because geometry changes rapidly near side seams.
+right,normal,20,side-view class imbalance,Mirror the left normal slice so camera-specific bias remains visible.
+right,hard,35,seam overlap riders three-wheelers and curb-side clutter,Allocate the largest hard slice to diverse vulnerable road users and clutter expected on this side.

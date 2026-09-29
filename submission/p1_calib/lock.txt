@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: cdb81589e90de3785fe123ead45a9b66e7cd9966eacd611d8f16707f361d6b48
+code: CDB8-1589
+locked_at: 2026-09-29T11:35:16+07:00
+shapes: box=7, polygon=3
+prefill_kept: 7
+prefill_edited: 0
+new: 0
